@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-07-03T13:16:48.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="o-1_8_cK9JTyHybvvlii" type="github">
+  <diagram name="Page-1" id="io0lHh7FbKfppIq_mu3F">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Data Loading &amp; Unloading in Snowflake" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry width="604" height="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="COPY INTO Command" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="72" y="58" width="167" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Data Loading" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="28" y="33" width="255" height="662" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Transform Data" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="93" y="275" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Load Data to Snowflake" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="63" y="468" width="185" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="GET Command" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="388" y="82" width="119" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Transform Data" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="385" y="275" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Unload Data from Snowflake" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="338" y="450" width="219" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="S3 Bucket" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="259" y="770" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Snowflake" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="2">
+          <mxGeometry x="257" y="905" width="88" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Data Unloading" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="303" y="33" width="289" height="662" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Storage" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="96" y="745" width="401" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="2" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="2" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="2" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="2" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.27;" edge="1" parent="2" source="6" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.27;" edge="1" parent="2" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="2" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
