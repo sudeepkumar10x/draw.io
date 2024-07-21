@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T12:38:21.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="74UsT-Gulv-rb-fwRyfv" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T13:10:10.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_WlOym7NIQR34nuV2n2K" version="24.6.4" type="github">
   <diagram name="Page-1" id="JMZqaTamtCrcKsAUNokJ">
-    <mxGraphModel dx="1311" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1061" dy="565" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,9 +20,9 @@
           <mxGeometry x="53.33333333333334" y="30.985915492957744" width="33.333333333333336" height="30.985915492957744" as="geometry" />
         </mxCell>
         <mxCell id="yfp1X50c1Cd5gOTeeE3f-16" value="PBI" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
-          <mxGeometry x="630" y="495" width="51" height="68" as="geometry" />
+          <mxGeometry x="630" y="494" width="51" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="yfp1X50c1Cd5gOTeeE3f-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="yfp1X50c1Cd5gOTeeE3f-16">
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.544;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yfp1X50c1Cd5gOTeeE3f-30" target="yfp1X50c1Cd5gOTeeE3f-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="529" as="sourcePoint" />
             <mxPoint x="340" y="490" as="targetPoint" />
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="yfp1X50c1Cd5gOTeeE3f-30" value="Reporting" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.comset.co.uk/wp-content/uploads/2024/01/one-lake-logo2.png;" vertex="1" parent="1">
           <mxGeometry x="521.09" y="505" width="49.91" height="51.12" as="geometry" />
+        </mxCell>
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-35" value="Copliot" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://1000logos.net/wp-content/uploads/2023/11/Copilot-Logo.png;" vertex="1" parent="1">
+          <mxGeometry x="654" y="384.44" width="62.44" height="35.12" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
