@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-21T12:20:22.605Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="v6H988mYHAYx_YhM_noj" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-21T12:23:18.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="q4A_fYkQqQx9-MCFbxJI" version="24.6.4" type="github">
   <diagram name="Page-1" id="JMZqaTamtCrcKsAUNokJ">
-    <mxGraphModel dx="969" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="yfp1X50c1Cd5gOTeeE3f-6" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="70" y="480" width="100" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="yfp1X50c1Cd5gOTeeE3f-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="yfp1X50c1Cd5gOTeeE3f-6">
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-2" value="Local System" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="yfp1X50c1Cd5gOTeeE3f-6">
           <mxGeometry width="100" height="110" as="geometry" />
         </mxCell>
         <mxCell id="yfp1X50c1Cd5gOTeeE3f-1" value="Excel File" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="yfp1X50c1Cd5gOTeeE3f-6">
@@ -19,13 +19,13 @@
         <mxCell id="yfp1X50c1Cd5gOTeeE3f-3" value="Excel File" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document" vertex="1" parent="yfp1X50c1Cd5gOTeeE3f-6">
           <mxGeometry x="53.33333333333334" y="30.985915492957744" width="33.333333333333336" height="30.985915492957744" as="geometry" />
         </mxCell>
-        <mxCell id="yfp1X50c1Cd5gOTeeE3f-8" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-8" value="Staging" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
           <mxGeometry x="270" y="500" width="38" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yfp1X50c1Cd5gOTeeE3f-9" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-9" value="Integration" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
           <mxGeometry x="370" y="500" width="38" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yfp1X50c1Cd5gOTeeE3f-10" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-10" value="Reporting" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Data_Lake.svg;" vertex="1" parent="1">
           <mxGeometry x="470" y="500" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yfp1X50c1Cd5gOTeeE3f-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -46,8 +46,26 @@
             <mxPoint x="381" y="537" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yfp1X50c1Cd5gOTeeE3f-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
-          <mxGeometry x="630" y="482" width="51" height="68" as="geometry" />
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-16" value="PBI" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Power_BI_Embedded.svg;" vertex="1" parent="1">
+          <mxGeometry x="630" y="495" width="51" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="yfp1X50c1Cd5gOTeeE3f-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="529" as="sourcePoint" />
+            <mxPoint x="340" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-18" value="Azure" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="365" y="640" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="yfp1X50c1Cd5gOTeeE3f-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfp1X50c1Cd5gOTeeE3f-5" target="yfp1X50c1Cd5gOTeeE3f-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="540" as="sourcePoint" />
+            <mxPoint x="340" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
